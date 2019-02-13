@@ -8,8 +8,9 @@ class Cast extends Component {
         //   const moviesCast = cast.map((cast) => <Cast ca= {cast} />  )
       return (
         <div className="App">
-         
-         <p>{this.props.movie.cast.name}</p>
+        
+         <p>{this.props.name} -  {this.props.role}</p>
+      
        
         </div>
       );

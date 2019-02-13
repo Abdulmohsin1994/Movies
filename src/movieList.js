@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Movie from './movie'
-import Cast from './Cast'
+// import Cast from './Cast'
 class MovieList extends Component {
     render() {
         const movies = [
@@ -179,7 +179,7 @@ class MovieList extends Component {
         <div className="App">
      The Movie List
      {moviesComponents}
-     <Cast/>
+     {/* <Cast/> */}
         </div>
       );
     }
