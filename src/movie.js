@@ -7,7 +7,7 @@ class Movie extends Component {
     render() {
 
       const cast = this.props.movies.cast.map(person => {
-        return <Cast personData={person} />;
+       
       });
       return (
         <div className="App">
